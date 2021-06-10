@@ -29,7 +29,7 @@ public class Test {
       System.out.println();
       System.out.println("Average of the numbers in the array: " + averageOfArray(arr));
       System.out.println("Highest of the numbers is: " + arr[0]);
-      System.out.println("Lowest of the numbers is : " + arr[arr.length - 1]);
+      System.out.println("Lowest of the numbers is : " + arr[n - 1]);
     }
   }
 
