@@ -27,7 +27,7 @@ public class Test {
       findFrequecy(arr);
 
       System.out.println();
-      System.out.println("Average of the numbers in the array: " + averageOfArray(arr));
+      System.out.printf("Average of the numbers in the array: %.02f\n", averageOfArray(arr));
       System.out.println("Highest of the numbers is: " + arr[0]);
       System.out.println("Lowest of the numbers is : " + arr[n - 1]);
     }
